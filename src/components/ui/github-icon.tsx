@@ -1,5 +1,8 @@
 import { forwardRef, useImperativeHandle } from "react";
-import type { AnimatedIconHandle, AnimatedIconProps } from "./types"
+import type {
+  AnimatedIconHandle,
+  AnimatedIconProps
+} from "./types"
 import { motion, useAnimate } from "motion/react"
 
 const GithubIcon = forwardRef<AnimatedIconHandle, AnimatedIconProps>(
